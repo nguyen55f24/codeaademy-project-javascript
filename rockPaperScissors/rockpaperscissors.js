@@ -3,7 +3,7 @@ var computerChoice=Math.random();
 if(Math.random()<0.34){
 computerChoice='rock';
 }
-else if(Math.random()<=0.67&&Math.random()>=0.34){
+else if(Math.random()<=0.67){
 computerChoice='paper';
 }
 else {
